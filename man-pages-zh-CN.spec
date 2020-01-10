@@ -3,7 +3,7 @@
 Summary: Chinese Man Pages from Chinese Man Pages Project
 Name: man-pages-zh-CN
 Version: 1.5.2
-Release: 3%{?dist}
+Release: 4%{?dist}
 License: GFDL
 Group: Documentation
 #Vendor: From CMPP (Chinese Man Pages Project)
@@ -61,6 +61,9 @@ mkdir -p $RPM_BUILD_ROOT%{_mandir}/zh_CN
 %{_mandir}/zh_CN/man*/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.5.2-4
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.5.2-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
